@@ -87,6 +87,12 @@ Total sizes of the training data files are as follows:
 
 Total sizes of datamodels data (the model weights) are 16.9 GB for CIFAR-10 and 0.75 GB for FMoW.
 
+### Setting up AWS
+1. Make an AWS account
+2. Download the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+3. Run `aws configure` and add the Access key ID (you can get these by clicking on your account on top right corner -> Security credentials)
+
+
 ### API
 You can download them using the Amazon S3 CLI interface with the requester pays option as follows (replacing the fields {...} as appropriate):
 ```bash
