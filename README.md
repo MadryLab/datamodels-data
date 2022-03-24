@@ -43,7 +43,7 @@ For each dataset and $\alpha$, we provide the following data:
 # M is the number of models trained
 /{DATASET}/data/train_masks_{PCT}pct.npy  # [M x N_train] boolean
 /{DATASET}/data/test_margins_{PCT}pct.npy # [M x N_test] np.float16
-/{DATASET}/data/test_margins_{PCT}pct.npy # [M x N_train] np.float16
+/{DATASET}/data/train_margins_{PCT}pct.npy # [M x N_train] np.float16
 ```
 (The files live in the Amazon S3 bucket `madrylab-datamodels`; we provide instructions for acces in the <a href="#downloading">next section</a>.)
 
