@@ -2,6 +2,8 @@
 
 Here we provide the data used in the paper "Datamodels: Predicting Predictions with Training Data" ([arXiv](https://arxiv.org/abs/2202.00622), [Blog](https://gradientscience.org/datamodels-1)).
 
+Looking for the code to make your own datamodels? It's now been released [here](https://github.com/MadryLab/datamodels)!
+
 *Note that all of the data below is stored on Amazon S3  using the “requester pays” option to avoid a blowup in our data transfer costs (we put estimated AWS costs below)---if you are on a budget and do not mind waiting a bit longer, please contact us at datamodels@mit.edu and we can try to arrange a free (but slower) transfer.*
 
 ## Citation
